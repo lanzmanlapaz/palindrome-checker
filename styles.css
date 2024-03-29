@@ -1,0 +1,39 @@
+body {
+  background-color: #2a2a40;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 30%;
+
+  height: 80%;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+input[type="text"],
+button {
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  text-align: center;
+}
+
+#resultText {
+  text-align: center;
+}
